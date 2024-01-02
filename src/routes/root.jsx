@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Top from "../components/Top";
-
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Root() {
     return (
@@ -15,6 +15,7 @@ export default function Root() {
             <div className="h-fit">
                 <Navbar/>
             </div>
+            <Analytics />
         </div>
     )
 }
