@@ -26,7 +26,7 @@ export default function Top() {
         console.log(location.pathname)
     }, [location])
     return (
-        <div className="flex justify-between p-1 space-x-3 items-center sticky top-0 bg-[#1A1110]">
+        <div className="flex justify-between p-1 space-x-3 items-center sticky top-0 bg-[#0c0c0c]">
             <div className="w-full">
                 {
                     location.pathname === "/search" && (
