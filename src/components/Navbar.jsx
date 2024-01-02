@@ -27,10 +27,13 @@ export default function Navbar() {
                 <BsHeart className="text-2xl font-bold"/>
                 <p className="text-sm font-semibold whitespace-nowrap">Wishlist</p>
             </Link>
-            <Link to={'/account'} className={`${location.pathname === "/account" && "text-white"} flex flex-col items-center space-y-2 flex-item sm:justify-self-end`}>
+            <div className="w-full h-full flex sm:flex-col sm:justify-end items-center">
+            
+            <Link to={'/account'} className={`${location.pathname === "/account" && "text-white"} flex flex-col items-center space-y-2`}>
                 <BsPersonCircle className="text-2xl font-bold"/>
                 <p className="text-sm font-semibold">Account</p>
             </Link>
+            </div>
         </div>
     )
 }
