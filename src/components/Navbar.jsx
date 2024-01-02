@@ -10,7 +10,7 @@ export default function Navbar() {
         console.log(location.pathname)
     }, [location])
     return (
-        <div className="sticky bottom-0 sm:static w-full bg-black flex justify-around p-3 sm:w-fit sm:flex-col sm:justify-normal sm:space-y-7 sm:pt-11 sm:items-center">
+        <div className="sticky bottom-0 sm:static w-full flex justify-around p-3 sm:w-fit sm:flex-col sm:justify-normal sm:space-y-7 sm:pt-11 sm:items-center">
             <Link to={'/'} className={`${location.pathname === "/" && "text-white"} flex flex-col items-center space-y-2`}>
                 <BsStar className="text-2xl font-bold"/>
                 <p className="text-sm font-semibold">Featured</p>
