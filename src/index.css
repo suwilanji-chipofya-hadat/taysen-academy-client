@@ -28,3 +28,28 @@ h5 {
 h6 {
   font-size: 1em;
 }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em; /* Adjust font size for h1 on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.4em; /* Adjust font size for h2 on smaller screens */
+  }
+
+  h3 {
+    font-size: 1.3em; /* Adjust font size for h3 on smaller screens */
+  }
+
+  h4 {
+    font-size: 1.2em; /* Adjust font size for h4 on smaller screens */
+  }
+
+  h5 {
+    font-size: 1.1em; /* Adjust font size for h5 on smaller screens */
+  }
+
+  h6 {
+    font-size: 1em; /* Keep the same font size for h6 on smaller screens */
+  }
+}
