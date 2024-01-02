@@ -12,7 +12,7 @@ export default function Root() {
                     <Outlet/>
                 </div>
             </div>
-            <div className="h-fit w-full sticky bottom-0 sm:static sm:w-fit bg-gray-900">
+            <div className="h-fit sm:h-full w-full sticky bottom-0 sm:static sm:w-fit bg-gray-900">
                 <Navbar/>
             </div>
             <Analytics />
