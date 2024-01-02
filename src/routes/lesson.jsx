@@ -67,7 +67,7 @@ export default function Lesson() {
         )
     }
     return (
-        <div className="w-full h-full">
+        <div className="w-full h-full pb-[150px]">
             {
                 data && (
                     <div className="w-full h-full flex flex-col justify-between">
@@ -77,7 +77,7 @@ export default function Lesson() {
                             </div>
                             <div dangerouslySetInnerHTML={{__html: data.lessonById.content}}></div>
                         </div>
-                        <div className="flex justify-between fixed w-full bottom-[100px] sm:sticky sm:bottom-7 px-5">
+                        <div className="flex justify-between w-full px-5">
                             <button onClick={previousLesson}><BsChevronLeft className="font-bold text-3xl text-blue-600"/></button>
                             <button onClick={nextLesson}><BsChevronRight className="font-bold text-3xl text-blue-600"/></button>
                         </div>
