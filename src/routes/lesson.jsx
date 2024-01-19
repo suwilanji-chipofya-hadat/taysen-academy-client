@@ -77,7 +77,7 @@ export default function Lesson() {
                             </div>
                             <div dangerouslySetInnerHTML={{__html: data.lessonById.content}}></div>
                         </div>
-                        <div className="flex justify-between w-full px-5">
+                        <div className="flex justify-between w-full px-5 sticky bottom-0">
                             <button onClick={previousLesson}><BsChevronLeft className="font-bold text-3xl text-blue-600"/></button>
                             <button onClick={nextLesson}><BsChevronRight className="font-bold text-3xl text-blue-600"/></button>
                         </div>
